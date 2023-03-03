@@ -1,0 +1,12 @@
+
+public class Strings {
+  
+  public static void main(String[] args){
+  String s = "Hello.My name is Tom.";
+    s=s.toUpperCase();
+    Syste.out.println(s);
+  
+  }
+  
+  
+}
