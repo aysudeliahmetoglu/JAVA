@@ -1,0 +1,27 @@
+
+public class Fibonacci {
+  public static void main(String[] args){
+    //fibonacci
+    // 1 1 2 3 5 8 13 21
+    //a b c 
+    //  a b c
+    
+    int  firstNumber =1;
+    int  fsecondNumber =1;
+    int c;
+    System.out.println(firstNumber);
+    System.out.println(secondNumber);
+    for(int i =0;i<10;i++){
+      c=firstNumber+secondNumber;
+      firstNumber = secondNumber;
+      secondNumber = c;
+      System.out.println(c);
+    }
+    
+  
+  
+  }
+  
+ 
+  
+}

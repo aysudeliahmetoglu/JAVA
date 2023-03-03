@@ -1,0 +1,22 @@
+
+public class Recursive {
+  
+  public static int f(int x){
+    if(x == 10) return 10;
+    System.out.println("x:"+x);
+    return x+f(x+1);
+  
+  }
+  
+  public static void main(String [] args)
+  {
+//    int sum=0;
+//    for (int i=0;i<10;i++){
+//      sum +=i+1;
+//      System.out.println("sum":+sum+"i:"+i);
+//    }
+//    System.out.println("sum":+sum);
+//  }
+  System.out.println("f(0):"+f(0));
+}
+}
